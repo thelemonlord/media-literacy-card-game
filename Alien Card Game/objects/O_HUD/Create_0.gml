@@ -15,10 +15,3 @@ global.ViewGameTimer = 0;
 /// @DnDHash : 652A0D3F
 /// @DnDArgument : "var" "ViewScore"
 global.ViewScore = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 6069EFB9
-/// @DnDArgument : "value" "1"
-/// @DnDArgument : "var" "ComboMult"
-global.ComboMult = 1;

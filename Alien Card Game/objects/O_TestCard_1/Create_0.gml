@@ -24,6 +24,13 @@ global.PromptString = 1;
 /// @DnDArgument : "var" "InputPassValue"
 global.InputPassValue = 0;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0BD22B30
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "ComboMult"
+global.ComboMult = 1;
+
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
 /// @DnDHash : 4BFD049E
