@@ -9,16 +9,16 @@ ini_open("CardPrompts.ini");
 /// @DnDHash : 79567FCA
 /// @DnDArgument : "var" "global.PromptString"
 /// @DnDArgument : "section" ""Claims""
-/// @DnDArgument : "key" ""1""
-global.PromptString = ini_read_string("Claims", "1", "default");
+/// @DnDArgument : "key" "global.PromptRetrieveNumber"
+global.PromptString = ini_read_string("Claims", global.PromptRetrieveNumber, "default");
 
 /// @DnDAction : YoYo Games.Files.Ini_Read
 /// @DnDVersion : 1
 /// @DnDHash : 021CCB60
 /// @DnDArgument : "var" "global.PassValue"
 /// @DnDArgument : "section" ""Answers""
-/// @DnDArgument : "key" ""1""
-global.PassValue = ini_read_string("Answers", "1", "default");
+/// @DnDArgument : "key" "global.PromptRetrieveNumber"
+global.PassValue = ini_read_string("Answers", global.PromptRetrieveNumber, "default");
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
@@ -45,16 +45,3 @@ draw_set_alpha(1);
 /// @DnDHash : 29369023
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 444FFB15
-/// @DnDArgument : "var" "global.InputPassValue"
-/// @DnDArgument : "value" "global.PassValue"
-if(global.InputPassValue == global.PassValue){	/// @DnDAction : YoYo Games.Instances.Change_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 136E96CC
-	/// @DnDParent : 444FFB15
-	/// @DnDArgument : "objind" "O_TestCard_2"
-	/// @DnDSaveInfo : "objind" "O_TestCard_2"
-	instance_change(O_TestCard_2, true);}

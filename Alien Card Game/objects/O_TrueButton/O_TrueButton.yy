@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite154",
-    "path":"sprites/Sprite154/Sprite154.yy",
+    "name":"S_Check",
+    "path":"sprites/S_Check/S_Check.yy",
   },
   "spriteMaskId":null,
   "visible":true,
