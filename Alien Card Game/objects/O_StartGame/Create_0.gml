@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 4DD19E3D
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "ComboMult"
+global.ComboMult = 1;
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 58708E28

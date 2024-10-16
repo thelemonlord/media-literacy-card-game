@@ -1,8 +1,8 @@
-/// @DnDAction : YoYo Games.Instances.Get_Alarm
+/// @DnDAction : YoYo Games.Common.Temp_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 25579F92
-/// @DnDArgument : "var" "global.ViewGameTimer"
-global.ViewGameTimer = alarm_get(0);
+/// @DnDHash : 1B3DBEA0
+/// @DnDArgument : "value" "alarm[0] / 60"
+var temp = alarm[0] / 60;
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -12,8 +12,8 @@ global.ViewGameTimer = alarm_get(0);
 /// @DnDArgument : "xscale" "0.1"
 /// @DnDArgument : "yscale" "0.1"
 /// @DnDArgument : "caption" ""TIME: ""
-/// @DnDArgument : "text" "global.ViewGameTimer / 7200"
-draw_text_transformed(30, 20, string("TIME: ") + string(global.ViewGameTimer / 7200), 0.1, 0.1, 0);
+/// @DnDArgument : "text" "temp - frac(temp) + 1"
+draw_text_transformed(30, 20, string("TIME: ") + string(temp - frac(temp) + 1), 0.1, 0.1, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1

@@ -45,9 +45,3 @@ draw_set_alpha(1);
 /// @DnDHash : 29369023
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 357AEC51
-/// @DnDArgument : "msg" "global.ComboMult"
-show_debug_message(string(global.ComboMult));
