@@ -6,12 +6,6 @@ alarm_set(0, 36000);
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 2EAC35EE
-/// @DnDArgument : "var" "GameTimer"
-global.GameTimer = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
 /// @DnDHash : 7D51BD34
 /// @DnDArgument : "var" "ViewGameTimer"
 global.ViewGameTimer = 0;

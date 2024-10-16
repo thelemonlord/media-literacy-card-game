@@ -16,8 +16,8 @@ if(global.InputPassValue == global.PassValue){	/// @DnDAction : YoYo Games.Com
 	/// @DnDParent : 6257D621
 	/// @DnDArgument : "var" "global.ComboMult"
 	/// @DnDArgument : "not" "1"
-	/// @DnDArgument : "value" "5"
-	if(!(global.ComboMult == 5)){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDArgument : "value" "4"
+	if(!(global.ComboMult == 4)){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 7B028F2B
 		/// @DnDParent : 664EE26A
@@ -56,15 +56,15 @@ if(global.InputPassValue == global.PassValue){	/// @DnDAction : YoYo Games.Com
 	/// @DnDHash : 666B001C
 	/// @DnDParent : 6257D621
 	/// @DnDArgument : "var" "global.ComboMult"
-	/// @DnDArgument : "value" "5"
-	if(global.ComboMult == 5){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDArgument : "value" "4"
+	if(global.ComboMult == 4){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 2531728D
 		/// @DnDParent : 666B001C
-		/// @DnDArgument : "expr" "100 * 4"
+		/// @DnDArgument : "expr" "100 * global.ComboMult"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "global.ViewScore"
-		global.ViewScore += 100 * 4;
+		global.ViewScore += 100 * global.ComboMult;
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1

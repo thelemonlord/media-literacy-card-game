@@ -15,16 +15,15 @@ if(global.InputPassValue == global.PassValue){	/// @DnDAction : YoYo Games.Com
 	/// @DnDHash : 24EB20AE
 	/// @DnDParent : 7D5887A3
 	/// @DnDArgument : "var" "global.ComboMult"
-	/// @DnDArgument : "not" "1"
-	/// @DnDArgument : "value" "5"
-	if(!(global.ComboMult == 5)){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDArgument : "value" "1"
+	if(global.ComboMult == 1){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 3A81B18E
 		/// @DnDParent : 24EB20AE
-		/// @DnDArgument : "expr" "100 * global.ComboMult"
+		/// @DnDArgument : "expr" "100"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "global.ViewScore"
-		global.ViewScore += 100 * global.ComboMult;
+		global.ViewScore += 100;
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -56,15 +55,24 @@ if(global.InputPassValue == global.PassValue){	/// @DnDAction : YoYo Games.Com
 	/// @DnDHash : 6B4F30B9
 	/// @DnDParent : 7D5887A3
 	/// @DnDArgument : "var" "global.ComboMult"
-	/// @DnDArgument : "value" "5"
-	if(global.ComboMult == 5){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDArgument : "value" "2"
+	if(global.ComboMult == 2){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 18A93DC1
 		/// @DnDParent : 6B4F30B9
-		/// @DnDArgument : "expr" "100 * 4"
+		/// @DnDArgument : "expr" "200"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "global.ViewScore"
-		global.ViewScore += 100 * 4;
+		global.ViewScore += 200;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1DE15224
+		/// @DnDParent : 6B4F30B9
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "expr_relative" "1"
+		/// @DnDArgument : "var" "global.ComboMult"
+		global.ComboMult += 1;
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
@@ -93,8 +101,9 @@ if(!(global.InputPassValue == global.PassValue)){	/// @DnDAction : YoYo Games.
 	/// @DnDHash : 1A162425
 	/// @DnDParent : 35D01F4D
 	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "global.ComboMult"
-	global.ComboMult = 1;
+	global.ComboMult += 1;
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
