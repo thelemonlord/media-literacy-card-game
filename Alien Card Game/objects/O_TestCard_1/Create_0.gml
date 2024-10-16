@@ -24,11 +24,6 @@ global.PromptString = 1;
 /// @DnDArgument : "var" "InputPassValue"
 global.InputPassValue = 0;
 
-/// @DnDAction : YoYo Games.Random.Randomize
-/// @DnDVersion : 1
-/// @DnDHash : 4BFD049E
-randomize();
-
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
 /// @DnDHash : 2283AA8D
