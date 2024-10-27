@@ -23,7 +23,15 @@ if(global.InputPassValue == global.PassValue){	/// @DnDAction : YoYo Games.Com
 		/// @DnDArgument : "var" "global.AlarmCounter"
 		/// @DnDArgument : "op" "1"
 		/// @DnDArgument : "value" "17900"
-		if(global.AlarmCounter < 17900){	/// @DnDAction : YoYo Games.Common.Variable
+		if(global.AlarmCounter < 17900){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 6217B028
+			/// @DnDParent : 231E0375
+			/// @DnDArgument : "soundid" "snd_correct"
+			/// @DnDSaveInfo : "soundid" "snd_correct"
+			audio_play_sound(snd_correct, 0, 0, 1.0, undefined, 1.0);
+		
+			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 43DA2448
 			/// @DnDParent : 231E0375

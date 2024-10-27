@@ -24,6 +24,24 @@ global.PromptString = 1;
 /// @DnDArgument : "var" "InputPassValue"
 global.InputPassValue = 0;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0777D6D9
+/// @DnDArgument : "var" "SourceDisplayValue"
+global.SourceDisplayValue = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 2202AB89
+/// @DnDArgument : "var" "SourceString"
+global.SourceString = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0B8A6F96
+/// @DnDArgument : "var" "WebsiteDisplayValue"
+global.WebsiteDisplayValue = 0;
+
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
 /// @DnDHash : 2283AA8D

@@ -20,6 +20,22 @@ global.PromptString = ini_read_string("Claims", global.PromptRetrieveNumber, "de
 /// @DnDArgument : "key" "global.PromptRetrieveNumber"
 global.PassValue = ini_read_string("Answers", global.PromptRetrieveNumber, "default");
 
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 62BE5A6E
+/// @DnDArgument : "var" "global.SourceString"
+/// @DnDArgument : "section" ""Sources""
+/// @DnDArgument : "key" "global.PromptRetrieveNumber"
+global.SourceString = ini_read_string("Sources", global.PromptRetrieveNumber, "default");
+
+/// @DnDAction : YoYo Games.Files.Ini_Read
+/// @DnDVersion : 1
+/// @DnDHash : 579FA00D
+/// @DnDArgument : "var" "global.WebsiteDisplayValue"
+/// @DnDArgument : "section" ""WebsiteDisplay""
+/// @DnDArgument : "key" "global.PromptRetrieveNumber"
+global.WebsiteDisplayValue = ini_read_string("WebsiteDisplay", global.PromptRetrieveNumber, "default");
+
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 4FF80933
