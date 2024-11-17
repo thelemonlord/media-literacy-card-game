@@ -41,12 +41,3 @@ global.SourceString = 0;
 /// @DnDHash : 0B8A6F96
 /// @DnDArgument : "var" "WebsiteDisplayValue"
 global.WebsiteDisplayValue = 0;
-
-/// @DnDAction : YoYo Games.Random.Get_Random_Number
-/// @DnDVersion : 1
-/// @DnDHash : 2283AA8D
-/// @DnDDisabled : 1
-/// @DnDArgument : "var" "global.PromptRetrieveNumber"
-/// @DnDArgument : "type" "1"
-/// @DnDArgument : "min" "1"
-/// @DnDArgument : "max" "24"

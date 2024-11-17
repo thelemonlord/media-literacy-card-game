@@ -61,3 +61,14 @@ draw_set_alpha(1);
 /// @DnDHash : 29369023
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 266E2E2B
+/// @DnDArgument : "var" "global.PromptString"
+/// @DnDArgument : "value" ""default""
+if(global.PromptString == "default"){	/// @DnDAction : YoYo Games.Game.Restart_Game
+	/// @DnDVersion : 1
+	/// @DnDHash : 4715883F
+	/// @DnDParent : 266E2E2B
+	game_restart();}
