@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_TrueButton",
+  "%Name":"O_DisplayedWebsite",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_TrueButton",
+  "name":"O_DisplayedWebsite",
   "overriddenProperties":[],
   "parent":{
     "name":"ACG_OBJ",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"SPR_TrueButton",
-    "path":"sprites/SPR_TrueButton/SPR_TrueButton.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

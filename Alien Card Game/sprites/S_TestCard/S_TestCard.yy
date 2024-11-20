@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"S_TestCard",
   "bboxMode":0,
-  "bbox_bottom":479,
+  "bbox_bottom":719,
   "bbox_left":0,
-  "bbox_right":639,
+  "bbox_right":1279,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":480,
+  "height":720,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"1fe09444-8d21-43df-a4e7-8f6eb62072c4","blendMode":0,"displayName":"default","isLocked":false,"name":"1fe09444-8d21-43df-a4e7-8f6eb62072c4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -105,5 +105,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":640,
+  "width":1280,
 }
