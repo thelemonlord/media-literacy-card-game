@@ -42,11 +42,10 @@ if(global.SourceDisplayValue == 1){	/// @DnDAction : YoYo Games.Common.If_Vari
 		/// @DnDVersion : 1
 		/// @DnDHash : 58648AF3
 		/// @DnDParent : 45FDFF9D
-		/// @DnDArgument : "x" "445"
-		/// @DnDArgument : "y" "300"
+		/// @DnDArgument : "x" "640"
 		/// @DnDArgument : "sprite" "SPR_WebHistory"
 		/// @DnDSaveInfo : "sprite" "SPR_WebHistory"
-		draw_sprite(SPR_WebHistory, 0, 445, 300);}
+		draw_sprite(SPR_WebHistory, 0, 640, 0);}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -58,11 +57,10 @@ if(global.SourceDisplayValue == 1){	/// @DnDAction : YoYo Games.Common.If_Vari
 		/// @DnDVersion : 1
 		/// @DnDHash : 5AD814BA
 		/// @DnDParent : 777262FF
-		/// @DnDArgument : "x" "445"
-		/// @DnDArgument : "y" "300"
+		/// @DnDArgument : "x" "640"
 		/// @DnDArgument : "sprite" "SPR_WebOpinion"
 		/// @DnDSaveInfo : "sprite" "SPR_WebOpinion"
-		draw_sprite(SPR_WebOpinion, 0, 445, 300);}
+		draw_sprite(SPR_WebOpinion, 0, 640, 0);}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -74,11 +72,10 @@ if(global.SourceDisplayValue == 1){	/// @DnDAction : YoYo Games.Common.If_Vari
 		/// @DnDVersion : 1
 		/// @DnDHash : 421D817C
 		/// @DnDParent : 337F5F8B
-		/// @DnDArgument : "x" "445"
-		/// @DnDArgument : "y" "300"
+		/// @DnDArgument : "x" "640"
 		/// @DnDArgument : "sprite" "SPR_WebPropaganda"
 		/// @DnDSaveInfo : "sprite" "SPR_WebPropaganda"
-		draw_sprite(SPR_WebPropaganda, 0, 445, 300);}
+		draw_sprite(SPR_WebPropaganda, 0, 640, 0);}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -90,8 +87,7 @@ if(global.SourceDisplayValue == 1){	/// @DnDAction : YoYo Games.Common.If_Vari
 		/// @DnDVersion : 1
 		/// @DnDHash : 0C50D8E5
 		/// @DnDParent : 3B3C3FF1
-		/// @DnDArgument : "x" "445"
-		/// @DnDArgument : "y" "300"
+		/// @DnDArgument : "x" "640"
 		/// @DnDArgument : "sprite" "SPR_WebScience"
 		/// @DnDSaveInfo : "sprite" "SPR_WebScience"
-		draw_sprite(SPR_WebScience, 0, 445, 300);}}
+		draw_sprite(SPR_WebScience, 0, 640, 0);}}

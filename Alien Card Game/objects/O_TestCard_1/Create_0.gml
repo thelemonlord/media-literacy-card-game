@@ -41,3 +41,21 @@ global.SourceString = 0;
 /// @DnDHash : 0B8A6F96
 /// @DnDArgument : "var" "WebsiteDisplayValue"
 global.WebsiteDisplayValue = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 6F8CDD7E
+/// @DnDArgument : "var" "RetrieveWebsiteName"
+global.RetrieveWebsiteName = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 280978B8
+/// @DnDArgument : "var" "WebsiteName"
+global.WebsiteName = 0;
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 4B9B78AC
+/// @DnDApplyTo : {O_WebsiteName}
+with(O_WebsiteName) instance_destroy();
