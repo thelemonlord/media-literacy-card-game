@@ -864,10 +864,10 @@ ini_close();
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 6FC3DDBF
-/// @DnDArgument : "code" "global.number_list = ds_list_create()$(13_10)var i = 1;$(13_10)repeat(34) { // the random number you will get will be from 0 to 10$(13_10)    ds_list_add(global.number_list, i)$(13_10)    i++;$(13_10)}$(13_10)ds_list_shuffle(global.number_list);"
+/// @DnDArgument : "code" "global.number_list = ds_list_create()$(13_10)var i = 1;$(13_10)repeat(201) { // the random number you will get will be from 0 to 10$(13_10)    ds_list_add(global.number_list, i)$(13_10)    i++;$(13_10)}$(13_10)ds_list_shuffle(global.number_list);"
 global.number_list = ds_list_create()
 var i = 1;
-repeat(34) { // the random number you will get will be from 0 to 10
+repeat(201) { // the random number you will get will be from 0 to 10
     ds_list_add(global.number_list, i)
     i++;
 }
