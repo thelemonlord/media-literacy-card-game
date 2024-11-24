@@ -1,11 +1,3 @@
-/// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1.1
-/// @DnDHash : 75F898F6
-/// @DnDArgument : "soundid" "SND_enchanted_tiki_86"
-/// @DnDArgument : "loop" "1"
-/// @DnDSaveInfo : "soundid" "SND_enchanted_tiki_86"
-audio_play_sound(SND_enchanted_tiki_86, 0, 1, 1.0, undefined, 1.0);
-
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1
 /// @DnDHash : 0BF48655
