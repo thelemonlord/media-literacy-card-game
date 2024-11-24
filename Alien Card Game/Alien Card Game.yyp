@@ -34,6 +34,9 @@
   "resources":[
     {"id":{"name":"AgencyFB","path":"fonts/AgencyFB/AgencyFB.yy",},},
     {"id":{"name":"O_ClaimText","path":"objects/O_ClaimText/O_ClaimText.yy",},},
+    {"id":{"name":"O_CreditsButton","path":"objects/O_CreditsButton/O_CreditsButton.yy",},},
+    {"id":{"name":"O_CreditsSplash","path":"objects/O_CreditsSplash/O_CreditsSplash.yy",},},
+    {"id":{"name":"O_CreditsX","path":"objects/O_CreditsX/O_CreditsX.yy",},},
     {"id":{"name":"O_DisplayedWebsite","path":"objects/O_DisplayedWebsite/O_DisplayedWebsite.yy",},},
     {"id":{"name":"O_FalseButton","path":"objects/O_FalseButton/O_FalseButton.yy",},},
     {"id":{"name":"O_FinalScoreCounter","path":"objects/O_FinalScoreCounter/O_FinalScoreCounter.yy",},},
@@ -107,6 +110,8 @@
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},},
     {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},},
+    {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},},
+    {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
