@@ -54,8 +54,10 @@ global.RetrieveWebsiteName = 0;
 /// @DnDArgument : "var" "WebsiteName"
 global.WebsiteName = 0;
 
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 4B9B78AC
-/// @DnDApplyTo : {O_WebsiteName}
-with(O_WebsiteName) instance_destroy();
+/// @DnDHash : 4F7ABDA5
+/// @DnDArgument : "objectid" "O_ClaimText"
+/// @DnDArgument : "layer" ""Instances_1""
+/// @DnDSaveInfo : "objectid" "O_ClaimText"
+instance_create_layer(0, 0, "Instances_1", O_ClaimText);

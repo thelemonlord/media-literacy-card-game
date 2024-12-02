@@ -28,8 +28,21 @@ if(global.InputPassValue == global.PassValue){	/// @DnDAction : YoYo Games.Com
 			/// @DnDHash : 6217B028
 			/// @DnDParent : 231E0375
 			/// @DnDArgument : "soundid" "snd_correct"
+			/// @DnDArgument : "pitch" "0.9"
 			/// @DnDSaveInfo : "soundid" "snd_correct"
-			audio_play_sound(snd_correct, 0, 0, 1.0, undefined, 1.0);
+			audio_play_sound(snd_correct, 0, 0, 1.0, undefined, 0.9);
+		
+			/// @DnDAction : YoYo Games.Common.Set_Global
+			/// @DnDVersion : 1
+			/// @DnDHash : 306BC062
+			/// @DnDInput : 2
+			/// @DnDParent : 231E0375
+			/// @DnDArgument : "value" "1"
+			/// @DnDArgument : "value_1" "1"
+			/// @DnDArgument : "var" "global.InfoFaceValue"
+			/// @DnDArgument : "var_1" "global.InfoNeedsChanged"
+			global.InfoFaceValue = 1;
+			global.InfoNeedsChanged = 1;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -55,6 +68,27 @@ if(global.InputPassValue == global.PassValue){	/// @DnDAction : YoYo Games.Com
 			/// @DnDApplyTo : {O_TestCard_1}
 			/// @DnDParent : 231E0375
 			with(O_TestCard_1) instance_destroy();
+		
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 7C37090A
+			/// @DnDApplyTo : {O_ClaimText}
+			/// @DnDParent : 231E0375
+			with(O_ClaimText) instance_destroy();
+		
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 17F898C8
+			/// @DnDApplyTo : {O_SourceText}
+			/// @DnDParent : 231E0375
+			with(O_SourceText) instance_destroy();
+		
+			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 6EF159A1
+			/// @DnDApplyTo : {O_WebsiteName}
+			/// @DnDParent : 231E0375
+			with(O_WebsiteName) instance_destroy();
 		
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1

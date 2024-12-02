@@ -67,8 +67,10 @@ draw_set_valign(fa_top);
 /// @DnDHash : 266E2E2B
 /// @DnDArgument : "var" "global.PromptString"
 /// @DnDArgument : "value" ""default""
-if(global.PromptString == "default"){	/// @DnDAction : YoYo Games.Game.Restart_Game
+if(global.PromptString == "default"){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 4715883F
+	/// @DnDHash : 2A5C364A
 	/// @DnDParent : 266E2E2B
-	game_restart();}
+	/// @DnDArgument : "room" "ACG_FinalScore"
+	/// @DnDSaveInfo : "room" "ACG_FinalScore"
+	room_goto(ACG_FinalScore);}

@@ -38,4 +38,12 @@ var l5BE7BA08_0 = false;l5BE7BA08_0 = instance_exists(O_TutorialSplash);if(l5B
 	/// @DnDHash : 25A4E423
 	/// @DnDApplyTo : {O_TutorialSplash}
 	/// @DnDParent : 5BE7BA08
-	with(O_TutorialSplash) instance_destroy();}
+	with(O_TutorialSplash) instance_destroy();
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 5C7232C5
+	/// @DnDParent : 5BE7BA08
+	/// @DnDArgument : "value" "1"
+	/// @DnDArgument : "var" "global.TutPage"
+	global.TutPage = 1;}

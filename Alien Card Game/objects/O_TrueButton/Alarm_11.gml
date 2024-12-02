@@ -1,0 +1,1 @@
+layer_set_visible("E_ScreenShake", 0);

@@ -1,13 +1,12 @@
-/// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 458FE832
-/// @DnDArgument : "speed" "0.1"
-image_speed = 0.1;
+/// @DnDHash : 19D56C87
+/// @DnDArgument : "var" "global.InfoFaceValue"
+global.InfoFaceValue = 0;
 
-/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
-/// @DnDHash : 0BF0E68C
-/// @DnDArgument : "spriteind" "SPR_InfoNeutral"
-/// @DnDSaveInfo : "spriteind" "SPR_InfoNeutral"
-sprite_index = SPR_InfoNeutral;
-image_index = 0;
+/// @DnDHash : 0047F1C8
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "global.InfoNeedsChanged"
+global.InfoNeedsChanged = 1;

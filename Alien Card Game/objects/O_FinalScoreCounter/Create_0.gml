@@ -7,6 +7,6 @@ global.FinalScoreTick = 0;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 732A531B
-/// @DnDArgument : "steps" "15"
+/// @DnDArgument : "steps" "5"
 /// @DnDArgument : "alarm" "2"
-alarm_set(2, 15);
+alarm_set(2, 5);
